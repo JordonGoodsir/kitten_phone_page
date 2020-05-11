@@ -4,6 +4,7 @@
 	box-sizing: border-box;
   }
 
+  
 #container
 {
 	width: 100%;
@@ -56,23 +57,18 @@
 
 #content-container
 {
-	float: left;
 	width: 100%;
-	background: #FFF;
+	background: #FFF; 
 }
 
 #content
-{
-	clear: left;
-	float: left;
-	width: 100%;
-	padding: 20px 0;
-	margin: 0 0 0 4%;
-	display: inline;
+{ 
+	text-align: center
+	/* margin: 0px 40px; */
 } 
 
 #content img { 
-	width: 100%;
+	width: 100%; 
 }
 
 #content h2 {   
@@ -82,20 +78,18 @@ font-size: 60px
 
 #aside
 {
-	width: 100%;
-	padding: 20px 0;
-	margin: 0 3% 0 0; 
-	font-size: 45px;
+	width: 100%; 
 }
 
 
 #footer
 {
-	clear: left;
 	background: #ccc;
 	text-align: right;
-	padding: 20px;
-	height: 1%;
+	padding: 20px; 
+	font-size: 30px;
+	height: 1%; 
+	margin-top: 4%
 } 
 
 @media only screen and (min-width: 600px) {
@@ -112,7 +106,8 @@ font-size: 60px
 	.col-s-10 {width: 83.33%;}
 	.col-s-11 {width: 91.66%;}
 	.col-s-12 {width: 100%;}
-  }
+  } 
+  
   @media only screen and (min-width: 768px) {
 	/* For desktop: */
 	.col-1 {width: 8.33%;}
